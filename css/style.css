@@ -1,0 +1,308 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+.header {
+	background: #373a3c;
+	padding: 11px 0;
+}
+
+.conteiner {
+	margin: 0 auto;
+	max-width: 1100px;
+	padding: 0 10px;
+}
+.menu {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+.menu-icon {
+	flex: 1 1 auto;
+}
+
+.menu-item {
+	margin: 0 0 0 25px;
+}
+
+.menu-link {
+	color: rgba(70, 243, 255, 0.973);
+	text-decoration: none;
+}
+
+.menu-link:hover {
+	color: #ffffff;
+}
+
+.home {
+	height: 100vh;
+
+	background: url(../images/Star-Wars-Battlefront-II-combat.jpg) no-repeat
+		center / cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.home-title {
+	color: #fff;
+	font-size: 75px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.home-subtitle {
+	color: #fff;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin: 0 0 103px 0;
+}
+
+.home-button {
+	border-radius: 4px;
+	background: #8dd83d;
+	padding: 10px 25px;
+	color: #fff;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	text-decoration: none;
+}
+
+.games {
+	background: linear-gradient(#414141, #3f3f3f);
+	padding: 65px 0 165px 0;
+}
+
+.games-icon {
+	display: block;
+	margin: 0 auto;
+}
+
+.games-subtitle {
+	color: #fff;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-align: center;
+	margin: 0 0 40px 0;
+}
+
+.games-title {
+	color: #fff;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-align: center;
+}
+
+.cards-contaiter {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.card {
+	border-radius: 4px;
+	border: 1px solid #8dd83d;
+	background: #fff;
+	overflow: hidden;
+	max-width: 350px;
+	flex: 0 0 350px;
+}
+
+.card-image {
+	width: 350px;
+	height: 190px;
+}
+
+.card-image-01 {
+	background: url(../images/card-01.jpg) no-repeat center / cover;
+}
+
+.card-image-02 {
+	background: url(../images/card-02.jpg) no-repeat center / cover;
+}
+
+.card-image-03 {
+	background: url(../images/card-03.jpg) no-repeat center / cover;
+}
+
+.card-image-04 {
+	background: url(../images/card-04.jpg) no-repeat center / cover;
+}
+
+.card-image-05 {
+	background: url(../images/card-05.jpg) no-repeat center / cover;
+}
+
+.card-image-06 {
+	background: url(../images/card-06.jpg) no-repeat center / cover;
+}
+.card-image-07 {
+	background: url(../images/card-07.jpg) no-repeat center / cover;
+}
+
+.card-content {
+	padding: 22px;
+}
+
+.card-title {
+	color: #435766;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin: 0 0 10px 0;
+}
+
+.card-subtitle {
+	color: #435766;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin: 0 0 35px 0;
+}
+
+.card-button {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 4px;
+	background: #8dd83d;
+	padding: 19px 19px 19px 19px;
+	color: #fff;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+}
+
+.exlusive {
+	padding: 40px 0 160px 0;
+	background: url(../images/exlusive.jpg) no-repeat center / cover;
+}
+
+.exlusive-title {
+	text-align: center;
+	color: #8dd83d;
+	text-align: center;
+	font-size: 45px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin: 0 0 75px 0;
+}
+
+.exlusive-button {
+	display: block;
+	width: 201.25px;
+	padding: 16px;
+	text-decoration: none;
+	margin: 70px auto 0;
+	border-radius: 4px;
+	background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+	text-align: center;
+	color: #fff;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px; /* 100% */
+}
+
+.desing {
+	padding: 115px 0 145px 0;
+	background: url(../images/Design-bg.jpg) no-repeat center / cover;
+}
+
+.desing-title {
+	color: #fff;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.desing-text {
+	color: #fff;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin: 0 0 90px 0;
+}
+
+.dising-content {
+	max-width: 600px;
+}
+
+.desing-row {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+.desing-button {
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px; /* 131.25% */
+	text-decoration: none;
+	border-radius: 4px;
+	background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+}
+
+.desing-button-01 {
+	flex: 0 0 207px;
+}
+
+.desing-button-02 {
+	flex: 0 0 280px;
+}
+
+.desing-button:hover {
+	background: #8dd83d;
+	box-shadow: 0 0 10px 0 #ffffff;
+}
+
+.footer {
+	padding: 37px 0;
+	border-radius: 4px;
+	background: #373a3c;
+}
+
+.footer-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-top: 1px solid grey;
+	padding: 20px 0 0 0;
+}
+
+.footer-text {
+	color: #fff;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
