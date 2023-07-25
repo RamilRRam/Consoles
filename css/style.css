@@ -43,13 +43,19 @@ body {
 
 .home {
 	height: 100vh;
-
-	background: url(../images/Star-Wars-Battlefront-II-combat.jpg) no-repeat
-		center / cover;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+}
+
+.home-star {
+	background: url(../images/Star-Wars-Battlefront-II-combat.jpg) no-repeat
+		center / cover;
+}
+
+.home-duty {
+	background: url(../images/exlusive.jpg) no-repeat center / cover;
 }
 
 .home-title {
@@ -305,4 +311,38 @@ body {
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
+}
+
+.video {
+	padding: 50px 0;
+	background: radial-gradient(
+		100% 100% at 50% 0%,
+		rgba(76, 80, 82, 0.1) 0%,
+		rgba(95, 98, 101, 0.1) 100%
+	);
+}
+
+.video-title {
+	text-align: center;
+	margin: 0 0 50px 0;
+	color: #435766;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.video-duty {
+	height: 315px;
+	max-width: 560px;
+	min-width: 400px;
+	display: block;
+}
+
+.video-row {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	flex-wrap: wrap;
+	padding: 0 10px;
 }
